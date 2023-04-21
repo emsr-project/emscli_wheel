@@ -45,5 +45,3 @@ The `ems` command-line tool (emscli) is designed to manage and interact with you
   ems set --kubeconfig /home/ubuntu/.mkube/mkube/config/config --dataEFS /home/ubuntu/mnt_magics/data_ws --codeEFS /home/ubuntu/mnt_magics/code_ws --gluster /home/ubuntu/mnt_magics
   ```
 
-
-# emscli_wheel
