@@ -1,0 +1,9 @@
+{
+  "name": "batch1",
+  "code_folder": ".",
+  "job_specs":[
+  {
+    "command": "python helloworld.py"
+  }
+]
+}

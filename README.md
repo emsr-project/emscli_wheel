@@ -2,12 +2,12 @@
 
 The `ems` command-line tool (emscli) is designed to manage and interact with your Kubernetes cluster for various tasks. It provides a convenient interface to work with Kubernetes resources.
 
-## Install: `pip install`
 
-  ```
-  pip install https://github.com/emsr-project/emscli_wheel/releases/download/v0.1.2/ems_batch_utility-0.1.2-py3-none-any.whl
-  ems set --kubeconfig <kubeconfig_path> --dataEFS <data_efs_path> --codeEFS <code_efs_path> --gluster <gluster_path>
-  ```
+## Example: 
+
+
+  We provide two example, one is helloworld exmaple and the other is mnist example.
+
 
 ## Command: `ems batch`
 
@@ -63,7 +63,7 @@ The `ems` command-line tool (emscli) is designed to manage and interact with you
 ## Command: `ems set`
 
 ### Description:
-  The `ems set` command is used to configure the EMS tool with specific settings related to the Kubernetes cluster, Gluster storage. These settings will be used for subsequent `ems` commands.
+  This command is only useful for admins. The `ems set` command is used to configure the EMS tool with specific settings related to the Kubernetes cluster, Gluster storage. These settings will be used for subsequent `ems` commands.
 
 
 ### Usage:
@@ -96,3 +96,10 @@ The `ems` command-line tool (emscli) is designed to manage and interact with you
   ems set --kubeconfig /home/ubuntu/.mkube/mkube/config/config --dataEFS /home/ubuntu/mnt_magics/data_ws --codeEFS /home/ubuntu/mnt_magics/code_ws --gluster /home/ubuntu/mnt_magics
   ```
 
+
+## Install: `pip install`
+
+  ```
+  pip install https://github.com/emsr-project/emscli_wheel/releases/download/v0.1.2/ems_batch_utility-0.1.2-py3-none-any.whl
+  ems set --kubeconfig <kubeconfig_path> --dataEFS <data_efs_path> --codeEFS <code_efs_path> --gluster <gluster_path>
+  ```
