@@ -6,7 +6,7 @@ The `ems` command-line tool (emscli) is designed to manage and interact with you
 ## Example: 
 
 
-  We provide two example, one is helloworld exmaple and the other is mnist example.
+  We provide two example, one is [helloworld](./example/helloworld) exmaple and the other is [mnist](./example/mnist) example.
 
 
 ## Command: `ems batch`
