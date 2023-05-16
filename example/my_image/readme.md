@@ -3,9 +3,9 @@
 
 ### Step1.
 
-Go to docker tempplate on this repo and edit your image on the dockerfile's 35-38.
+Go to [docker tempplate](../../docker) on this repo and edit your image on the [dockerfile](../../docker/dockerfile)'s line 35-38.
 
-Change the docker name in the build_docker.sh
+Change the docker name in the [build_docker.sh](../../docker/build_docker.sh)
 
 ```
 sh build_docker.sh
