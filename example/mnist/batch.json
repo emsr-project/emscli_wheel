@@ -6,7 +6,7 @@
     "memory_in_gb": 5,
     "gpus": 1,
     "env_vars":{
-      "DATA_EFS": "/home/magics/hdd/qinjie/ai_ems/wheel_ws/fake_mnt/data_efs/magics"
+      "DATA_EFS": "/mnt/data_efs/{your_name}"
     }
   },
   "job_specs":[
