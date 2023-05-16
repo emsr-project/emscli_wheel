@@ -2,7 +2,7 @@
   "name": "mnist.batch",
   "code_folder": ".",
   "shared": {
-    "vcpus": 15,
+    "vcpus": 10,
     "memory_in_gb": 5,
     "gpus": 1,
     "env_vars":{
@@ -21,6 +21,14 @@
   {
     "command": "python train.py --lr 0.001 --batch_size 64 --epochs 5 --data_dir $DATA_EFS/.pytorch/MNIST_data --model_dir $DATA_EFS/model3",
     "notes": "run parameter3"
+  },
+  {
+    "command": "python train.py --lr 0.001 --batch_size 64 --epochs 5 --data_dir $DATA_EFS/.pytorch/MNIST_data --model_dir $DATA_EFS/model4",
+    "notes": "run parameter4"
+  },
+  {
+    "command": "python train.py --lr 0.001 --batch_size 64 --epochs 5 --data_dir $DATA_EFS/.pytorch/MNIST_data --model_dir $DATA_EFS/model5",
+    "notes": "run parameter5"
   }
 ]
 }
