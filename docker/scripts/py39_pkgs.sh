@@ -1,0 +1,16 @@
+pip3 install ruamel.yaml
+pip3 install "ray[tune]"
+pip3 install cvxpy
+pip3 install pandas
+pip3 install matplotlib
+pip3 install scipy
+pip3 install typing
+pip3 install cloudpickle
+pip3 install h5py
+pip3 install pytz
+pip3 install mypy
+pip3 install types-python-dateutil
+pip3 install pyyaml
+pip3 install "ray[default]"
+pip3 install jupyter
+pip3 install boto3

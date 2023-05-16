@@ -1,0 +1,1 @@
+docker build -f dockerfile -t qinjielin/ems-container:v0.1 .
