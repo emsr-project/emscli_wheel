@@ -4,8 +4,8 @@
   "shared": {
     "vcpus": 10,
     "memory_in_gb": 1,
-    "gpus": 0,
-    "container_image": "qinjielin/ems-container:v0.1",
+    "gpus": 1,
+    "container_image": "qinjielin/ems-test:v0.1",
     "conda_env": "qinjie"
   },
   "job_specs":[
